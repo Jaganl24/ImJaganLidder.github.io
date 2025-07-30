@@ -1,0 +1,87 @@
+
+/* base.css */
+
+.nav-link.active:hover, .dropdown-item:hover, .navbar-brand:hover {
+  color: #ff7e30;
+  transition: color 0.2s ease;
+}
+
+.card-cover {
+  background-color: white;
+}
+
+.img-fit {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.navbar-custom, body {
+  background-color: white;
+}
+
+.dropdown-menu, .dropdown-item, .dropdown-item:hover {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  background-color: #ff7e30;
+  border-color: #ff7e30;
+}
+
+.navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 99, 71, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  transition: color 0.2s ease;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  min-width: 60px;
+}
+
+.btn-outline-secondary {
+  border-color: black;
+  color: black;
+  border-width: 2px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: white;
+  border-color: #ff7e30;
+  color: #ff7e30;
+}
+
+.bi:hover path {
+  fill: #ff7e30;
+}
+
+.card {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .dropdown-menu, .dropdown-item {
+    background-color: white;
+    border: 0px;
+  }
+}
