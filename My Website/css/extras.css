@@ -1,0 +1,12 @@
+a .custom-hover-color {
+  color: black;
+}
+
+.card-title a {
+  color: black;
+}
+
+a:hover .custom-hover-color {
+  color: #ff7e30;
+  transition: color 0.2s ease;
+}
